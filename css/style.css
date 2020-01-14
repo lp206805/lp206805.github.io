@@ -9674,6 +9674,6 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 
-input:invalid {
-  box-shadow: 0 0 5px 1px red;
+input[type=text]:invalid {
+  box-shadow: red;
 }
